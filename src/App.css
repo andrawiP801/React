@@ -1,0 +1,16 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .App-body {
+    display: flex;
+    flex: 1;
+  }
+
+  .main-content {
+    flex-grow: 1; /* Ocupa el espacio restante */
+    padding: 20px; /* Espaciado alrededor del contenido */
+  }
+  

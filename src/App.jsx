@@ -9,11 +9,6 @@ function App() {
   return (
     <div className="App">
       <Sidebar />
-      <Header />
-      <main>
-        <Dashboard />
-      </main>
-      <Footer />
     </div>
   );
 }
