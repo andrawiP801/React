@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; /* Centra verticalmente los elementos en la barra de navegación */
+  padding: 10px;
+  background-color: #f1f1f1;
+  margin-left: 260px;
+}
+
+.profile-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: auto; /* Mueve el círculo hacia la derecha ocupando todo el espacio restante */
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.search-form {
+  display: flex; /* Cambio a flex para alinear elementos horizontalmente */
+  align-items: center; /* Centra verticalmente los elementos en la barra de búsqueda */
+  width: 100%;
+  max-width: 320px;
+  margin-left: 20px;
+}
+
+.search-input {
+  flex: 1; /* Ocupa todo el espacio disponible horizontalmente */
+  padding: 8px 40px 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  font-size: 16px;
+  margin-left: -30px; /* Añade margen izquierdo para separar del botón de búsqueda */
+}
+
+.search-button:hover {
+  background-color: #e0e0e0;
+}

@@ -1,16 +1,15 @@
 .App {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-  }
-  
-  .App-body {
-    display: flex;
-    flex: 1;
-  }
+  display: flex;
+  flex-direction: row; /* Cambiado de column a row */
+  height: 100vh;
+}
 
-  .main-content {
-    flex-grow: 1; /* Ocupa el espacio restante */
-    padding: 20px; /* Espaciado alrededor del contenido */
-  }
-  
+.App-body {
+  display: flex;
+  flex-direction: column; /* Añadido para organizar el contenido verticalmente */
+  flex-grow: 2; /* Ocupa el espacio restante después de la sidebar */
+}
+
+.main-content {
+  padding: 20px; /* Espaciado alrededor del contenido */
+}
